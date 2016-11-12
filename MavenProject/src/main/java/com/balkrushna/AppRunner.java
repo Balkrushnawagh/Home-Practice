@@ -11,8 +11,8 @@ public class AppRunner {
 		ApplicationContext applicationContext =  new ClassPathXmlApplicationContext("applicationContext.xml");
 		HelloWorld helloWorld = (HelloWorld) applicationContext.getBean("helloWorld");
 		System.out.println(helloWorld.getMessage());
+		System.out.println(helloWorld.getMessage());
 		
-
 	}
 
 }
